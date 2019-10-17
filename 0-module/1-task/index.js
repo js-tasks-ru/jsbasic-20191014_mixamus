@@ -1,9 +1,13 @@
 /**
  * Power
- * @param {number} m base
- * @param {number} n index
  * @returns {number}
+ * @param a
+ * @param b
  */
-function sum(m, n) {
 
+function sum(a, b) {
+  return a + b;
 }
+
+const result = sum(2, 5);
+alert(result);
